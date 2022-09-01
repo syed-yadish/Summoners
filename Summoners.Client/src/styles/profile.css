@@ -1,0 +1,44 @@
+
+.profile-wrapper{
+    background-image: url("../assets/images/bg-3.jpg");
+    background-repeat:no-repeat;
+    background-position:center;
+    background-blend-mode: dark;
+    background-size: cover;
+    background-color: rgb(173, 172, 172);
+    background-blend-mode:darken;
+    height: 100vh;
+    width: 100%;
+    align-items: flex-end;
+    justify-content: flex-start;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.profile__search{
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;
+    height: 14%;
+    align-items: flex-end;
+    padding-right: 50px;
+}
+
+.profile__search h1{
+color: white;
+}
+
+.error-message {
+    text-align: center;
+    color: white;
+}
+
+.profile__board{
+    width: 100%;
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding-top: 40px;
+}

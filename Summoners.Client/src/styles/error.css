@@ -1,0 +1,33 @@
+.errorwrapper{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    align-content: center;
+    justify-content: center;
+}
+
+.errordiv {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    justify-content: center;
+    align-content: center;
+}
+.gif {
+    margin-bottom: 5%;
+    width: 300px;
+}
+.message {
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'Shojumaru', cursive;
+    color: rgb(241, 236, 214);
+    text-shadow:
+    0 0 5px rgb(73, 73, 73),
+    0 0 10px rgb(150, 150, 150),
+    0 0 20px rgb(199, 195, 189),
+    0 0 40px rgb(0, 0, 0);
+    display: flex;
+    justify-self: center;
+    align-self: center;
+}

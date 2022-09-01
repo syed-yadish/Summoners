@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css?family=Abel');
+
+.mainCard{
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-end;
+  width: 20%;
+  height: 75vh;
+  margin-right: 5px;
+  text-shadow:
+    0 0 5px rgb(102, 102, 102),
+    0 0 10px rgb(42, 42, 42),
+    0 0 20px rgb(37, 37, 37),
+    0 0 40px rgb(72, 61, 61);
+}
+.IconDiv {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+.Icon {
+  margin-top: 10%;
+  top: 20px;
+  left: 20px;
+  width: 100px;
+  border-radius: 15px;
+}
+
+.card {
+  width: 100%;
+  height: 100%;
+  border-radius: 20px;
+  overflow: hidden;
+  position: relative;
+  text-align: center;
+  
+}
+
+.card h1 {
+  text-align: center;
+  font-size: xx-large;
+  color: rgb(241, 236, 214);
+  font-family: fantasy;
+}
+
+.card .additional {
+  position: absolute;
+  width: 150px;
+  height: 100%;
+  z-index: 2;
+  font-family: Abel, Arial, Verdana, sans-serif;
+}
+
+.card.green .additional {
+  border: 1px rgb(119, 119, 119);
+  border-style: solid;
+  box-shadow: 1px 1px 50px 20px rgb(119, 119, 119) inset;
+  border-radius: 30px;
+  width: 100%;
+  border-radius: 0 5px 5px 0;
+}
+
+.card .additional .user-card .level,
+.card .additional .user-card .rank {
+  top: 15%;
+  color: rgb(241, 236, 214);
+  text-transform: uppercase;
+  font-size: 0.75em;
+  font-weight: bold;
+  background: rgba(0,0,0,0.15);
+  padding: 0.125rem 0.75rem;
+  border-radius: 100px;
+  white-space: nowrap;
+}
+
+.card.green .additional .coords {
+  color: rgb(241, 236, 214);
+  font-size: larger;
+  display: flex;
+  flex-direction: column;
+  height: 70px;
+  word-spacing: 5px;
+}
+.titlespan {
+  font-size: larger;
+  font-weight: bold;
+}
+
+.detailspan {
+  margin-bottom: 25px;
+}
+
+.card .additional .stats {
+  font-size: 2rem;
+  display: flex;
+  position: absolute;
+  bottom: 1rem;
+  left: 1rem;
+  right: 1rem;
+  top: auto;
+  color: rgb(241, 236, 214);
+}
+
+.card.green .additional .stats {
+  color: rgb(241, 236, 214);
+}
+
+.card .additional .stats > div {
+  flex: 1;
+  text-align: center;
+}
+
+.card .additional .stats i {
+  display: block;
+}
+
+.card .additional .stats div.title {
+  font-size: 0.75rem;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.card .additional .stats div.value {
+  font-size: 1.5rem;
+  font-weight: bold;
+  line-height: 1.5rem;
+}
